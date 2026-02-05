@@ -100,3 +100,4 @@ xarray==2025.6.1
 xarray-einstats==0.8.0
 yarg==0.1.9
 zipp==3.23.0
+pioran @ git+https://github.com/mlefkir/pioran.git
