@@ -15,8 +15,12 @@ Since we are using pioran(old version), This project require packages that a few
 ```bash
 pip install -r requirements.txt
 pip install .
-
 ```
+
+
+The file structure is as follows. Place the `json_files`, `real_data_tests` and `AGNobsdata` folder as shown here to avoid file path errors.
+
+```text
 root/
 ├── AGNobsdata/
 ├── helios_files/
@@ -41,3 +45,4 @@ root/
 ├── sim_data_maker.ipynb
 ├── thesis_plot.ipynb
 └── tk_lc_simulator.ipynb
+```
