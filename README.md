@@ -3,7 +3,7 @@
 This repository contains tools and scripts for Supermassive Black Hole Binary (SMBHB) periodicity detection.
 
 ## Prerequisites
-Since we are using pioran(old), This project require packages that a few versions behind. please use the requirements file for reproducibility.
+Since we are using pioran(old version), This project require packages that a few versions behind. please use the requirements file for reproducibility.
 
 * **Python 3.10**: This project requires Python 3.10. Please ensure you have it installed before proceeding.
 
