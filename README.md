@@ -2,6 +2,8 @@
 
 This repository contains tools and scripts for Supermassive Black Hole Binary (SMBHB) periodicity detection.
 
+Details of the work can be found here : https://dspace.uba.uva.nl/server/api/core/bitstreams/2675572c-660b-45fe-aefe-a1c223173379/content
+
 ## Prerequisites
 Since we are using pioran(old version), This project require packages that a few versions behind. please use the requirements file for reproducibility.
 
