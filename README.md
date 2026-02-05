@@ -16,3 +16,28 @@ Since we are using pioran(old version), This project require packages that a few
 pip install -r requirements.txt
 pip install .
 
+```
+root/
+├── AGNobsdata/
+├── helios_files/
+├── json_files/
+├── my_utils.egg-info/
+├── old_files/
+├── pioran/
+├── real_data_tests/
+├── simDATAcsvs/
+├── utils/
+│   ├── NSmodels_FERMI.py
+│   ├── NSmodels_graham.py
+│   ├── NSmodels.py
+│   ├── NSmodels2.py
+│   ├── plotter.py
+│   └── THESIS.py
+├── alogrithm_batch_run.py
+├── batch_run.py
+├── example.ipynb
+├── real_data_test_analysis.ipynb
+├── requirements.txt
+├── sim_data_maker.ipynb
+├── thesis_plot.ipynb
+└── tk_lc_simulator.ipynb
