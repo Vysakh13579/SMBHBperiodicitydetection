@@ -34,6 +34,8 @@ simDATA = pd.read_csv(csv_file_path)
 
 for r, row in simDATA[0:1].iterrows():             
 
+
+        #### creates a new lightcurve from a given power law shape
     #try:
         l = LightCurveSampler(N=2**21, rms=row.rms, simulatorSEED= int(row.simSEED), verbose=False)
         l.load_powerspec(bend_pl, [200,  row.bendfreq, 
@@ -55,6 +57,8 @@ for r, row in simDATA[0:1].iterrows():
         lcFLUXerr = simLCerr
         #print(r, end='-->')
         
+
+        # Nested sampling
         modelCreater = JAXNSmodelCreator(lcTIME, lcFLUX, lcFLUXerr)
 
         DRW_NSmodel = modelCreater.create_model(DRW_generative_prior, DRW_log_likelihood_model)
