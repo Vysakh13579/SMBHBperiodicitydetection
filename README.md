@@ -18,7 +18,7 @@ pip install .
 ```
 
 
-The file structure is as follows. Place the `json_files`, `real_data_tests` and `AGNobsdata` folder as shown here to avoid file path errors.
+The file structure is as follows. Place the `json_files`, `real_data_tests` and `AGNobsdata` folders as shown here to avoid file path errors.
 
 ```text
 root/
