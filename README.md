@@ -1,1 +1,1 @@
-# SMBHBperiodicitydetection
+# SMBHB Periodicity Detection
